@@ -45,6 +45,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 import { getOS } from '../utils'
 
 export default {
@@ -104,9 +105,19 @@ export default {
         `${prefix}DevDocs-${this.version}-x86_64.AppImage`
     }
   },
+  created() {
+    this.fetchVersion()
+  },
   methods: {
     selectPreview(index) {
       this.currentPreview = index
+    },
+    fetchVersion() {
+      return axios.get('https://api.github.com/repos/egoist/devdocs-desktop/releases/latest').then(res => {
+        this.version = res.data.tag_name.slice(1)
+      }).catch(err => {
+        console.error(err)
+      })
     }
   }
 }
