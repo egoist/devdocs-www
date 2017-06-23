@@ -75,7 +75,7 @@ export default {
         subtitle: 'Take care of your eyes',
         src: require('../previews/dark-mode.png')
       }, {
-        title: 'Custom Text Size',
+        title: 'Adjust Text Size',
         subtitle: 'Make the text as big/small as you want',
         src: require('../previews/text-size.png'),
         style: {
