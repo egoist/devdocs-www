@@ -4412,6 +4412,10 @@ vue-meta@^1.0.4:
     lodash.isplainobject "^4.0.6"
     object-assign "^4.1.1"
 
+vue-no-ssr@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/vue-no-ssr/-/vue-no-ssr-0.1.2.tgz#464bc6d4347662b1d175feca45869d77f7a307d9"
+
 vue-router@^2.5.3:
   version "2.6.0"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-2.6.0.tgz#77b271f6e0ac6d57e8e556da58c6582fce0ab712"

@@ -15,7 +15,8 @@
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {
     "axios": "^0.16.2",
-    "ream": "^1.0.0-rc.1"
+    "ream": "^1.0.0-rc.1",
+    "vue-no-ssr": "^0.1.2"
   },
   "license": "MIT",
   "devDependencies": {
