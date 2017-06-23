@@ -59,8 +59,9 @@ export default {
     }
   },
   data() {
+    const userAgent = process.browser ? window.navigator.userAgent : this.$ssrContext.req.headers['user-agent']
     return {
-      os: getOS(),
+      os: getOS(userAgent),
       version: '0.6.3',
       previews: [{
         title: 'Searchable',

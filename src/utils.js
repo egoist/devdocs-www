@@ -1,7 +1,4 @@
-export function getOS() {
-  if (process.server) return ''
-
-  const { userAgent } = window.navigator
+export function getOS(userAgent) {
   return /Mac/.test(userAgent) ?
     'macOS' :
     /Windows/.test(userAgent) ?
