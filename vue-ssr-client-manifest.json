@@ -1,32 +1,32 @@
 {
   "publicPath": "/",
   "all": [
-    "manifest.fe05371d.js",
+    "manifest.9e8e3a0a.js",
     "static/dd.2e4e1307.png",
     "static/dark-mode.c51a5ad9.png",
     "static/in-page-search.89fb6a7d.png",
     "static/search.2ec99c69.png",
     "static/text-size.5c12ce34.png",
-    "0.ff3c3f9c.js",
-    "vendor.1ac82508.js",
+    "0.b6ac08d2.js",
+    "vendor.f4c3d2db.js",
     "client.6b951f47.js",
     "static/custom-js-css.91c86200.png",
     "client.b7d4e242.css",
-    "0.ff3c3f9c.js.map",
-    "vendor.1ac82508.js.map",
+    "0.b6ac08d2.js.map",
+    "vendor.f4c3d2db.js.map",
     "client.6b951f47.js.map",
     "client.b7d4e242.css.map",
-    "manifest.fe05371d.js.map",
+    "manifest.9e8e3a0a.js.map",
     "CNAME",
     "index.html"
   ],
   "initial": [
-    "manifest.fe05371d.js",
-    "vendor.1ac82508.js",
+    "manifest.9e8e3a0a.js",
+    "vendor.f4c3d2db.js",
     "client.6b951f47.js"
   ],
   "async": [
-    "0.ff3c3f9c.js"
+    "0.b6ac08d2.js"
   ],
   "modules": {
     "86566032": [
@@ -512,6 +512,16 @@
       5
     ],
     "5995d7ed": [
+      6,
+      11,
+      1,
+      9,
+      2,
+      3,
+      4,
+      5
+    ],
+    "7cf57bd6": [
       6,
       11,
       1,
