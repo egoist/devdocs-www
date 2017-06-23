@@ -1,0 +1,25 @@
+{
+  "name": "devdocs-www",
+  "version": "0.0.0",
+  "description": "Landing page for DevDocs app.",
+  "repository": {
+    "url": "EGOIST/devdocs-www",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "ream dev",
+    "generate": "ream generate",
+    "gh": "gh-pages -d .ream/dist",
+    "deploy": "npm run generate && npm run gh"
+  },
+  "author": "EGOIST <0x142857@gmail.com>",
+  "dependencies": {
+    "ream": "^1.0.0-rc.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
