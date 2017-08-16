@@ -1,32 +1,32 @@
 {
   "publicPath": "/",
   "all": [
-    "manifest.9e8e3a0a.js",
+    "manifest.2cebd9a6.js",
     "static/dd.2e4e1307.png",
     "static/dark-mode.c51a5ad9.png",
     "static/in-page-search.89fb6a7d.png",
     "static/search.2ec99c69.png",
     "static/text-size.5c12ce34.png",
-    "0.b6ac08d2.js",
+    "0.d3ee9cc1.js",
     "vendor.f4c3d2db.js",
     "client.6b951f47.js",
     "static/custom-js-css.91c86200.png",
     "client.b7d4e242.css",
-    "0.b6ac08d2.js.map",
+    "0.d3ee9cc1.js.map",
     "vendor.f4c3d2db.js.map",
     "client.6b951f47.js.map",
     "client.b7d4e242.css.map",
-    "manifest.9e8e3a0a.js.map",
+    "manifest.2cebd9a6.js.map",
     "CNAME",
     "index.html"
   ],
   "initial": [
-    "manifest.9e8e3a0a.js",
+    "manifest.2cebd9a6.js",
     "vendor.f4c3d2db.js",
     "client.6b951f47.js"
   ],
   "async": [
-    "0.b6ac08d2.js"
+    "0.d3ee9cc1.js"
   ],
   "modules": {
     "86566032": [
